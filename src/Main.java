@@ -6,8 +6,8 @@ public class Main {
         System.out.println("Enetr your number ");
         int x = sc.nextInt();
 
-        if(x % 2 = 0){
-            System.outt.println("number is even");
+        if(x % 2 == 0){
+            System.out.println("number is even");
         }else {
             System.out.println("numer is odd");
 
