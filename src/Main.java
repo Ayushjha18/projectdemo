@@ -1,22 +1,45 @@
 import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner (System.in);
-        System.out.println("Enetr your number ");
-        int x = sc.nextInt();
+;
+          int n =5;
+          int m=5;
 
-        if(x % 2 == 0){
-            System.out.println("number is even");
-        }else {
-            System.out.println("numer is odd");
-
-        }
-        
-
-    //System.out.println("sum = "+sum);
-
-
-
+//        for (int i = 1; i <= n; i++) {
+//            for (int j = 1; j <= n; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        for (int i = 1; i <= n; i++) {
+//            for (int j = 1; j <= m; j++) {
+//                if (i == 1 | j == 1 | i == n | j == m) {
+//                    System.out.print("*");
+//                } else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+//        for (int i = 1; i <= n; i++) {
+//            for (int j = 1; j <= i; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        for(int i=1;i<=n;i++){
+//            for(int j=1;j<=n-i+1;j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+            for(int i=1;i<=n;i++){
+                for(int j=1;j<=i;j++){
+                    System.out.print(i);
+                }
+                System.out.println();
+            }
     }
 }
